@@ -1,0 +1,1290 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+   z-index: 10000;
+    
+}
+.header-icon1{
+    display: inline-block;
+    color: #2188ff;
+    font-size: 39px;
+    padding-top: 14px;
+    padding-left: 14px;
+}
+.header-1{
+    display: inline-block;
+    color: white;
+    font-size: 31px;
+}
+.ul1{
+    float: right;
+    list-style: none;
+   
+    
+}
+.ul1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(175, 175, 175);
+
+}
+.ul1 li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 19px;
+
+}
+.header-button{
+    width: 120px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #2188ff;
+    font-size: 24px;
+    color: white;
+    margin-top: 12px;
+    margin-right: 30px;
+    margin-left: 220px;
+    cursor: pointer;
+}
+
+.ul1 :hover{
+    color: #2188ff;
+}
+.header-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+.home{
+height: 100vh;
+width: 100%;
+background-image: url(../images/3799-flamingo-ave-siesta-key-print-005-14-flamingo-ave-sarasota-fl-4200x2799-300dpi-1675178841.jpg);
+position: relative;
+}
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.home-content{
+
+    position: absolute;
+    top: 50%;       
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+    text-align: center;
+}
+.home-tittle{
+    color: white;
+    font-size: 55px;
+
+}
+.home-p1{
+    color: rgb(189, 188, 188);
+    font-size: 20px;
+    margin: 15px 0px 30px 0px;
+}
+.home-btn1{
+    width: 120px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 17px;
+    color: white;
+    font-weight: bold;
+    background-color: #2188ff;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.home-btn2{
+    width: 120px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 17px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.home button:hover{
+    opacity: 0.8;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+.welcome{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.welcomeh{
+    font-size: 50px;
+    font-weight: bold;
+}
+.welcome-p{
+    display: inline-block;
+    color: rgb(106, 107, 108);
+    font-size: 30px;
+    padding-top: 20px ;
+    
+}
+.b{
+    color: rgb(134, 134, 222);
+}
+.parent-section1{
+    height: 80vh;
+}
+
+.content1-section1{
+    width: 50%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    float: left;
+    margin-top : 100px ;
+    border: 0px solid;
+    border-radius: 20px;
+    clear: both;
+}
+
+.buy-sell{
+    width: 100%;
+    height: 65%;
+}
+.sec1-head1{
+    font-size: 45px;
+    padding: 25px 0px 0px 10px;
+
+}
+.sec1-p1{
+    font-size: 17px;
+   padding: 25px 0px 0px 10px;
+   color: rgb(106, 107, 108);
+}
+.reviews-1{
+    width: 100%;
+    height: 35%;
+}
+.properties1{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+.Properties1-sold{
+    float: right;
+    margin: 38px 47px 0px 0px;
+    font-size: 16px;
+    color: rgb(106, 107, 108);
+
+   
+
+}
+.k1{
+    float: left;
+    margin: 25px 0px 0px 110px;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(76, 109, 255);
+   
+}
+.happy-customers{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.k2{
+    float: left;
+    margin: 25px 0px 0px 60px;
+    font-size: 55px;
+    font-weight: bold;
+    color:rgb(76, 109, 255);
+}
+.happy{
+    float: right;
+    margin: 38px 105px 0px 0px;
+    font-size: 16px;
+    color: rgb(106, 107, 108);
+}
+.content2-section1{
+    width: 45%;
+    height: 350px;
+    background-image: url(../images/city-map-with-location-town-plan-with-pin-gps-route-cartography-backround-red-navigation-pointers_152104-165.jpg);
+    background-size:cover;
+    float: right;
+    margin-top: 100px;
+    border: 0px solid;
+    border-radius: 20px;
+   position: relative;
+    
+}
+.section1-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 501;
+    border: 0px solid;
+    border-radius: 20px;
+}
+.apartment1{
+    /* width: 13%;
+    /* height: 100% */
+    position: relative;
+    
+}
+
+.apr1-img{
+    width: 200px;
+    background-image: url(../images/3799-flamingo-ave-siesta-key-print-005-14-flamingo-ave-sarasota-fl-4200x2799-300dpi-1675178841.jpg);
+    background-size: cover;
+    height: 150px;
+    margin: 15px 0px 0px 14px;
+    border: 6px white solid;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 500;
+    cursor: pointer;
+
+}
+
+.apr1-details{
+    width: 200px;
+    height: 100x;
+    margin: 158px 0px 0px 14px;
+    border: 5px white solid;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 502;
+    background-color: white;
+    cursor: pointer;
+}
+.apr1-price{
+    color:rgb(76, 109, 255);
+    font-weight: bold;
+    font-size: 17px;
+}
+.month1{
+    color: rgb(106, 107, 108);
+    font-size: 13px;
+ 
+}
+.lux1{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0px 0px 0px;
+}
+.apr1-loc{
+    font-size: 11px;
+    color: rgb(106, 107, 108);
+}
+.find{
+    width: 100%;
+    background-color: brown;
+
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.between-img{
+overflow: hidden;
+width: 100%;
+background-image: url(../images/WNaocO.jpg);
+background-attachment: fixed;
+height: 40vh;
+margin-bottom: 120px;
+}
+.between-details{
+    float: left;
+    text-align: center;
+    width: 20%;
+    font-size: 20px;
+    margin: 100px 4% 10px 0px;
+}
+.zoz{
+    margin-left: 4%;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.sec2{
+   height: 100vh;
+}
+.div-process{
+width: 60%;
+text-align: center;
+margin-left: 275px;
+height: 150px;
+}
+.process{
+    color:rgb(21, 56, 213);
+    padding-bottom: 15px;
+    font-size: 18px;
+    
+}
+.pro-span1{
+    font-weight: bold;
+    font-size: 26px;
+   
+}
+.pro-span2{
+    font-size: 26px;
+   
+}
+.sec2-p2{
+    color: rgb(106, 107, 108);
+    padding-top: 25px;
+}
+.sec2-parent{
+    width: 100%;
+    position: relative;
+}
+.sec2-parent1{
+    width: 50%;
+    height: 500px;
+    float: left;
+    margin-top: 30px;
+}
+.sec2-icon1{
+    font-size: 33px;
+    border: 0px gray solid;
+    background-color: rgb(242, 242, 242);
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top:18px ;
+    float: left;
+    position: absolute;
+    margin-top: 80px;
+    cursor: pointer;
+
+}
+.icon1-p{
+font-size: 10px;
+padding-top:5px ;
+font-weight: bold;
+color: rgb(106, 107, 108);
+}
+
+.play:hover{
+color: rgb(76, 109, 255);
+}
+
+.sec2-icon2{
+    font-size: 33px;
+    border: 0px gray solid;
+    background-color: rgb(242, 242, 242);
+    width: 90px;
+    height: 80px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top:18px ;
+    float: left;
+    position: absolute;
+    left: 0;
+    margin: 320px 0px 0px 560px;
+    cursor: pointer;
+    
+
+}
+.icon2-p{
+    font-size: 10px;
+    padding-top:5px ;
+    font-weight: bold;
+    color: rgb(106, 107, 108);
+}
+.sec2-img1{
+    width: 90%;
+    height: 500px;
+    background-image: url(../images/1692834808267.jpg);
+    background-size: cover;
+    border: 0px solid;
+    border-radius: 20px;
+    margin-left: 18px;
+    float: left;
+}
+.sec2-parent2{
+    width: 47%;
+    height: 600px;
+    float: right;
+
+}
+.sec2-main{
+    height: 120px;
+    border: 0px solid black;
+    margin-top: 25px;
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.discover-icon{
+    width: 70px;
+    height: 70px;
+    float: left;
+    z-index: 10;
+    font-size: 25PX;
+    background-color: white;
+    border: 0px solid;
+    border-radius: 50%;
+    padding: 22px 0px 0px 23px;
+    margin: 25px 0px 0px 27px;
+    color:rgb(76, 109, 255);
+    position: absolute;
+}
+.sec2-discover{
+    float: right;
+    width: 100%;
+    margin-top:13px ;
+    z-index: 10px;
+    position: absolute;
+    height: 120px;
+    padding-left: 120px;
+}
+.sec2-discover:hover{
+ color: white;
+ z-index: 15;
+ position: absolute;
+}
+
+.diff{
+    margin-top: 1px;
+
+}
+p.discoverhouse{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 0px 10px 5px;
+    z-index: 100;
+}
+
+.sec2-p3{
+    padding-top: 10px;
+    font-size: 13px;
+    padding: 0px 0px 5px 5px;
+    color: rgb(77, 77, 78);
+}
+
+.sec2-main:after{
+    position: absolute;
+    content: "";
+
+    left: 0;
+
+    height: 100%;
+    width: 0;
+
+    background-color: black;
+    opacity: 0;
+    border-radius: 10px;
+}
+.sec2-main:hover::after{
+    width: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.sec3-parent{
+    height: 100vh;
+    background-color: rgb(244, 244, 244) ;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+}
+.deals-parent{
+    position: relative;
+    height: 20%;
+    /* background-color: aqua; */
+}
+.deals{
+    float: left;
+    clear: both;
+
+}
+.bestdeals{
+    font-size: 17px;
+    color:  rgb(87, 118, 255);
+    margin: 40px 0px 30px 30px;
+    font-weight: bold;
+}
+.popular{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+    display: inline-block;
+}
+.prop{
+    display: inline-block;
+    font-size: 28px;
+    font-style: italic;
+    
+}
+.view-all{
+    float: right;
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:  rgb(83, 83, 229);
+    font-size: 15px;
+    color: white;
+    margin: 90px 30px 0px 0px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-left: 22px;
+
+}
+.view-all:hover{
+    opacity: 0.8;
+}
+
+.sec3-prent1{
+background-color: bisque;
+height: 30%;
+width: 100%;
+position: absolute;
+}
+.deal1{
+    width: 20%;
+    height: 20%;
+    float: left;
+    position: absolute;
+    margin-left:2% ;
+    cursor: pointer;
+}
+.deal-overlay{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    z-index: 100;
+     opacity: 0;
+    transition: 1.5s ;
+}
+.deal-overlay:hover {
+ 
+    opacity: 1 ;  
+}
+.category{
+    padding: 30px 0px 10px 0px;
+    font-size: 21px;
+}
+
+.over-details{
+    padding-bottom: 10px;
+}
+
+.deal-img1{
+    background-image: url(../images/house1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+.deal-img2{
+    background-image: url(../images/house2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}.deal-img3{
+    background-image: url(../images/house3.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+.deal-img4{
+    background-image: url(../images/house4.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+.deal-img5{
+    background-image: url(../images/house5.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+.deal-img6{
+    background-image: url(../images/house6.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+.deal-img7{
+    background-image: url(../images/house7.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}.deal-img8{
+    background-image: url(../images/house8.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 11;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.deal-details{
+    margin-top: 142px;
+    background-color: white;
+    border-radius: 5px;
+    height: 90%;
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    border: 3px solid white;
+}
+.deal-price{
+    padding-top: 20px;
+}
+.deal4{
+    width: 20%;
+    height: 20%;
+    float: left;
+    position: absolute;
+    margin-left:24% ;
+    cursor: pointer;
+}
+.deal2{
+    width: 20%;
+    cursor: pointer;
+    height: 20%;
+    float: left;
+    position: absolute;
+    margin-left:46% ;
+}
+.deal3{
+    width: 20%;
+    height: 20%;
+    float: left;
+    position: absolute;
+    margin-left:68% ;
+    cursor: pointer;
+}
+.deal1-1{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    margin-left:2% ;
+    margin-top: 310px;
+}
+.deal4-4{
+    cursor: pointer;
+    width: 20%;
+    height: 20%;
+    float: left;
+    position: absolute;
+    margin-left:24% ;
+    margin-top: 310px;
+}
+.deal2-2{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    margin-left:46% ;
+    margin-top: 310px;
+}
+.deal3-3{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    margin-left:68% ;
+    margin-top: 310px;
+}
+.deal-price{
+    color:rgb(76, 109, 255) ;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left:10px ;
+    
+}
+.deal-name{
+    font-weight: bold;
+    font-size: 18px;
+    padding:6px 0px 10px 10px  ;
+}
+.deal-location{
+    display: inline-block;
+    color:  rgb(106, 107, 108);
+    font-size: 14px;
+    padding-bottom: 10px;
+    
+}
+.icon{
+    color: rgb(94, 94, 255);
+}
+.bed{
+    padding-left:28px ;
+}
+.deal-locationi{
+    color:  rgb(106, 107, 108);
+    font-size: 14px;
+    padding-left: 12px;
+}
+.data1{
+    font-size: 13px;
+    font-weight: bold;
+    padding-right: 28px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.r-caption{
+    text-align: center;
+    height: 20vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.our-rentals{
+    padding: 35px 0px 10px 0px;
+    font-size: 40px;
+    color:rgb(21, 56, 213);
+}
+.r-choose{
+    font-size: 18px;
+    color:  rgb(106, 107, 108);
+}
+.rentals-parent{
+height: 70vh;
+width: 100%;
+position: relative;
+}
+.rental1{
+width: 20%;
+height: 400px;
+text-align: center;
+border: 2px solid  rgb(210, 210, 210);
+border-radius: 3px;
+margin: 40px 0px 0px 15% ;
+position: absolute;
+float: left;
+}
+.r-choices{
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.r-price{
+    font-size: 55px;
+    padding-bottom: 10px;
+    font-weight: bold;
+
+}
+.r-start{
+    padding-bottom:20px ;
+    font-size: 16px;
+    color: rgb(157, 157, 157);
+}
+.r-button{
+    font-size: 14px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px; 
+    border: 3px solid  #2188ff;
+    color: #2188ff ;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.r-details{
+    padding-top:8px ;
+    color: rgb(157, 157, 157);
+    font-size: 12px;
+}
+.r-overlay{
+    opacity: 0;
+    background-color: rgb(39, 38, 51);
+    z-index: 10;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: 0px;
+}
+.choices-overlay{
+    color: white;
+}
+.price-overlay{
+    color: white;
+}
+.button-overlay{
+    color: white;
+    background-color: #2188ff;
+}
+.r-overlay:hover{
+    opacity: 1;
+}
+.rental2{
+    margin-left: 40%;
+}
+.r-overlay2{
+    margin-left: 40%;
+}
+.rental3{
+    margin-left: 65%;
+}
+.r-overlay3{
+    margin-left: 65%;
+}
+/* ///////////////////////////////////////////////////////////////// */
+.between-img2{
+    background-image: url(../images/0_174_1429_782_04_f.jpg);
+    height: 30vh;
+    background-size: cover;
+    position: relative;
+}
+.between-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+
+}
+.become{
+    position: absolute;
+    top: 50%;       
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+    text-align: center;
+    color: white;
+}
+.become-gp{
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: #2188ff;
+}
+.p-become{
+    font-size: 26px;
+    font-weight: bold;
+}
+.apply-btn{
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    border: 0px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#2188ff;
+    color: white;
+}
+.apply-btn:hover{
+    opacity: 0.9;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.agents-super{
+    background-color: rgb(244, 244, 244) ;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+.d-words{
+    width: 100%;
+    height: 150px;
+}
+.expert-agents{
+    padding-top: 50px;
+}
+.span-expert{
+font-size: 23px;
+padding-left: 30px;
+font-style: italic;
+font-weight: bold;  
+color: rgb(75, 75, 75);
+}
+.agents-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:  rgb(83, 83, 229);
+    font-size: 15px;
+    color: white;
+    margin-left: 780px;
+    cursor: pointer;
+    border: 0px;
+}
+.agents-btn:hover{
+    opacity: 0.9;
+}
+.agents-parent{
+    width: 100%;
+    height: 70vh;
+   margin-top: 20px;
+}
+.agent{
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    height: 350px;
+    margin: 20px 0px 0px 15%;
+    border-radius: 10px;
+    float: left;
+    padding: 12px 11px;
+    position: relative;
+}
+.agent-img{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.a-img{
+    border-radius: 10px 10px 0px 0px ;
+}
+.agent2{
+    margin-left: 5%;
+}
+.agent3{
+    margin-left: 5%;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+}
+.agent:hover .img-overlay{
+ visibility: visible;
+ opacity: 1;
+}
+.img-overlay a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 19px;
+    background-color: rgb(20, 20, 44);
+    color: white;
+    margin-left: auto;
+    
+}
+.img-overlay a i{
+    line-height: 40px;
+}
+.span-name{
+    font-size: 19px;
+    color: #686868;
+    font-weight: bold;
+    
+}
+.star-icon{
+    padding-left: 100px;
+    color: gold;
+}
+.span-rate{
+    color: #868686;
+}
+.p-type{
+    padding-top: 15px;
+    color: #868686;
+    font-size: 14px;
+}
+.agent:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+
+    background-color: rgb(7, 8, 24);
+    border-radius: 10px;
+    opacity: 0;
+}
+.agent:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.agent:before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right:  0;
+    width: 0;
+    height: 0;
+
+    background-color: rgb(7, 8, 24);
+    border-radius: 10px;
+    opacity: 0;
+}
+.agent:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    transition: 1s;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////// */
+.about-parent{
+    height: 90vh;
+}
+.div-why{
+    text-align: center;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 20px;
+}
+.why-us{
+    font-size: 17px;
+    color:rgb(73, 73, 239) ;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.why-ideal{
+    font-size: 19px;
+    color: rgb(75, 75, 75);
+    padding-top: 10px;
+    font-style: italic;
+}
+.about-details{
+    width: 45%;
+    height: 70vh;
+    float: left;
+}
+.p-about{
+    padding-top: 15px;
+    font-size: 19px;
+    color: #201f1f;
+}
+.about-i{
+    color: #746bb9;
+}
+.soo{
+    padding-top: 50px;
+}
+.about-img{
+    background-image: url(../images/business-hk-3.jpg);
+    width: 50%;
+    background-size:cover;
+    float: left;
+   border-radius: 20px;
+    height: 60vh;
+    margin-left: 5%;
+}
+.circles{
+    margin-top: 470px;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 20px;
+}
+.circle{
+    padding-left: 8px;
+    color: #686868;
+}
+.circle:hover{
+    color: rgb(94, 94, 202);
+}
+.circle1{
+    color: rgb(94, 94, 202);
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer{
+    height: 80vh;
+    margin-top: 80px;
+    position: relative;
+}
+.blue-parent{
+   width: 80%;
+   height: 50vh;
+   background-color: #2188ff;
+   border-radius: 20px;
+   position: absolute;
+   margin: -180px 0px 0px 10%;
+}
+
+.inputs-parent{
+    position: relative;
+
+}
+.inputandicon{
+    position: absolute;
+    width: 70%;
+    margin: 50px 0px 0px 25%;
+    
+}
+.inputandicon a i{
+    padding: 10px;
+    min-width: 30px;
+    background-color: rgb(236, 238, 238);
+    border-radius: 8px;
+}
+div.icon{
+    position: absolute;
+    margin: 6px;
+    margin-bottom: 8px;
+}
+.inputandicon a{
+    color: #2188ff;
+}
+.email-input{
+    width: 60%;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0px;
+}
+.subs-btn{
+    width: 100px;
+    height: 46px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 10px;
+    background-color: #201f1f;
+    color: white;
+    cursor: pointer;
+}
+.subs-btn:hover{
+    opacity: 0.9;
+}
+.newsletter{
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 500px;
+    margin-top: 80px;
+}
+.our-news{
+    font-size: 18px;
+}
+.subscribe{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.grey-parent{
+    background-color: #1b1b1b;
+    height: 100%;
+    margin-top: 20%;
+    width: 100%;
+}
+.childrens-parent{
+    width: 80%;
+    color: white;
+    height: 40vh;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 220px;
+}
+.children1{
+    width: 40%;
+    padding-top: 50px;
+    float: left;
+}
+.footericon1{
+    padding-left: 0px;
+    padding-bottom: 30px;
+    color: #2188ff
+}
+.p-footer{
+    padding-bottom: 20px;
+    color:  #adaaaa;
+    font-size: 17px;
+}
+.children1 a i{
+   padding-left: 5px;
+   padding-right: 5px;
+background-color: #424040;
+ line-height: 30px;
+ width: 30px;
+ text-align: center;
+ border-radius: 15px;
+}
+.children1 a{
+    color: white;
+}
+.children1 a i:hover{
+    background-color: #2188ff;
+}
+.children2{
+    width: 20%;
+    float: left;
+    padding-left: 130px;
+    /* background-color: yellowgreen; */
+}
+.footer-tittle{
+    font-size: 21px;
+    color: #dedede;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.p1-footer{
+    font-size: 16px;
+    color: #adaaaa;
+    padding-bottom: 10px ;
+    cursor: pointer;
+}
+.p1-footer:hover{
+    color: #2188ff;
+}
+.rights{
+    margin-top: 38vh;
+}
+.copy{
+    color: #adaaaa;
+    font-size: 17px;
+}
+.copy2{
+    padding-left: 574px;
+}
